@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Abstract Art Gallery - Contact</title>
-    <link rel="stylesheet" href="standard.css">
+<meta charset="UTF-8">
+<title>Contact</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-<header>
-    <h1>Abstract Art Gallery</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">Art Gallery</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div id="nav" class="collapse navbar-collapse">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="about.html">About</a></li>
+<li><a class="dropdown-item" href="contact.html">Contact</a></li>
+<li><a class="dropdown-item" href="services.html">Services</a></li>
+<li><a class="dropdown-item" href="extra.html">Extra</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
 
 <div class="container mt-4">
-    <h2>Contact Us</h2>
-    <p>This is a prototype website. In a real site, you could include a contact form or contact details here.</p>
-    <p>For now, feel free to reach out via email at <a href="mailto:erie@stavrob.com">erie@stavrob.com</a>.</p>
+<h2>Contact</h2>
+<p>Email: erie@stavrob.com</p>
+<p>This is a prototype site, so this is just placeholder contact info.</p>
 </div>
 
-<footer>
-    <p>Site prototype by Stavro Bedawid</p>
+<footer class="bg-dark text-white text-center p-3 mt-4">
+Site by Stavro Bedawid
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
